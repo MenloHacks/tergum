@@ -19,14 +19,20 @@ const CONSTANTS = {
         "other",
         "prefer not to say"
     ],
-    TSHIRT_OPTIONS: [
+    SHIRT_OPTIONS: [
         "XS",
         "S",
         "M",
         "L",
         "XL"
     ],
-    SCHOOLS: JSON.parse(fs.readFileSync(__dirname + '/school_names.json', 'utf8'))
+    SCHOOLS: JSON.parse(fs.readFileSync(__dirname + '/school_names.json', 'utf8')),
+    DIETARY_RESTRICTIONS: [
+        "vegetarian",
+        "vegan",
+        "gluten free",
+        "nut allergy"
+    ]
     
 };
 

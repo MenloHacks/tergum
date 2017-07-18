@@ -62,7 +62,7 @@ var profileSchema = new Schema({
     shirt_size: {
         type: String,
         enum: {
-            values: CONSTANTS.TSHIRT_OPTIONS,
+            values: CONSTANTS.SHIRT_OPTIONS,
             message: "T shirt size must be one of the options."
         }
     },
@@ -88,8 +88,8 @@ var applicationSchema = new Schema({
     cool_project: String,
     last_summer: String,
     anything_else: String,
-    menlo_form_page_one: String,
-    menlo_form_page_two: String,
+    liability_form_page_one: String,
+    liability_form_page_two: String,
     photo_form_page_one: String,
     photo_form_page_two: String
 });

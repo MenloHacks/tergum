@@ -75,7 +75,15 @@ export const resolvers = {
                                 user.password = hash;
                                 user.save(function(error) {
                                     if (!error) {
-                                        fulfill(true);
+                                        jwt.sign({email: args.email}, process.env.TERGUM_SECRET_KEY,{expiresIn: 86400},
+                                            function(err, token) {
+                                                if (!err) {
+                                                    fulfill(token);
+                                                } else {
+                                                    reject(err);
+                                                }
+                                            }
+                                        );
                                     } else {
                                         reject(error);
                                     }
