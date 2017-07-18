@@ -1,0 +1,34 @@
+{
+  "name": "tergum",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "graphql": "^0.10.4",
+    "graphql-compose": "^2.1.1",
+    "graphql-compose-connection": "^2.2.2",
+    "graphql-tools": "^1.1.0",
+    "jade": "~1.11.0",
+    "mongoose": "^4.11.3",
+    "mongoose-schema-to-graphql": "^2.5.8",
+    "morgan": "~1.8.1",
+    "password-hash-and-salt": "^0.1.4",
+    "serve-favicon": "~2.4.2",
+    "jsonwebtoken": "^7.4.1",
+    "gmail-send": "^1.2.11",
+    "graphql-server-express": "^1.0.2",
+    "mongooseadmin": "^1.0.5",
+    "mongoose-unique-validator": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
