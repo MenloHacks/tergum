@@ -19,9 +19,9 @@ var CONSTANTS = {
     MENLO_FORM_URL: 'https://d2lv6xypat6og6.cloudfront.net/menlo-liability.pdf',
     NON_MENLO_FORM_URL: 'https://d2lv6xypat6og6.cloudfront.net/non-menlo-liability.pdf',
     PHOTO_FORM_URL: 'https://d2b6s0dsvfyqsi.cloudfront.net/photo_release.pdf',
-    APPLICATIONS_CLOSE: new Date(2019, 1, 16, 0, 0, 0, 0),
+    APPLICATIONS_CLOSE: new Date(2020, 2, 15, 0, 0, 0, 0),
     DISABLED_AFTER_APPLICATIONS_CLOSE: ["cool_project", "last_summer", "school", "is_bgc"],
-    DECISIONS_RELEASED: new Date(2019, 1, 15, 0, 0, 0, 0),
+    DECISIONS_RELEASED: new Date(2020, 2, 16, 0, 0, 0, 0),
     EMAIL_TEMPLATE_BEGINNING: fs.readFileSync(path.join(__dirname, '..', 'email_template_beginning.html'), 'utf8'),
     EMAIL_TEMPLATE_END: fs.readFileSync(path.join(__dirname, '..', 'email_template_end.html'), 'utf8')
 
