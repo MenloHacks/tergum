@@ -675,11 +675,11 @@
   "meta": {
     "database_type": "MongoDB",
     "liana": "forest-express-mongoose",
-    "liana_version": "5.6.0",
+    "liana_version": "5.7.0",
     "engine": "nodejs",
     "engine_version": "13.6.0",
     "framework": "other",
     "framework_version": null,
-    "orm_version": "5.8.7"
+    "orm_version": "4.13.20"
   }
 }

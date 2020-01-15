@@ -10,7 +10,7 @@ var _constants = require('./constants');
 var mongoose = require('mongoose');
 var uniqueValidator = require('mongoose-unique-validator');
 
-mongoose.connect('mongodb://menlohacks:' + process.env.MONGO_DB_PASSWORD + '@localhost/tergum', {useNewUrlParser: true});
+mongoose.connect('mongodb://menlohacks:' + process.env.MONGO_DB_PASSWORD + '@localhost/test', { useNewUrlParser: true });
 // because apparently you need to do this
 mongoose.Promise = global.Promise;
 

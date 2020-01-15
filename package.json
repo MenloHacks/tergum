@@ -17,9 +17,9 @@
     "cors": ">=2.8.4",
     "debug": "^3.1.0",
     "express": ">=4.16.2",
-    "forest-express-mongoose": "^2.16.1",
+    "forest-express-mongoose": "^5.6.0",
     "gmail-send": "1.2.14",
-    "graphql": "^0.13.2",
+    "graphql": "^0.11.7",
     "graphql-compose": ">=2.10.1",
     "graphql-compose-connection": ">=2.2.2",
     "graphql-server-express": ">=1.0.2",
@@ -27,20 +27,19 @@
     "helmet": "^3.11.0",
     "jade": ">=1.11.0",
     "jsonwebtoken": "^8.1.0",
-    "mongoose": "5.2.1",
-    "mongoose-schema-to-graphql": "^2.8.1",
+    "mongoose": ">=4.13.6",
+    "mongoose-schema-to-graphql": ">=2.7.0",
     "mongoose-unique-validator": ">=1.0.5",
     "mongooseadmin": ">=1.0.5",
     "morgan": "^1.9.0",
-    "nodemon": "^1.18.9",
+    "optics-agent": ">=1.1.6",
     "password-hash-and-salt": ">=0.1.4",
-    "pm2": "^4.2.1",
     "serve-favicon": ">=2.4.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "nodemon": "^1.12.5"
+    "nodemon": "^1.19.4"
   }
 }
