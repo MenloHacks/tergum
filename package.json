@@ -26,7 +26,7 @@
     "graphql-tools": "^2.12.0",
     "helmet": "^3.11.0",
     "jade": ">=1.11.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": ">=4.13.6",
     "mongoose-schema-to-graphql": ">=2.7.0",
     "mongoose-unique-validator": ">=1.0.5",
